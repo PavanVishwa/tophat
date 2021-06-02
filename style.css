@@ -1,0 +1,26 @@
+h1 {
+    font-size: 70px !important;
+}
+.btn-success:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+canvas{
+    animation-name:rainbow ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbow{
+    from{box-shadow: 1px 1px 38px rgb(255, 0, 0);}
+    to{box-shadow:1px 1px 38px rgb(0, 255, 13);}
+}
+
+body{
+background-size: cover;
+}
+
+
+
+
+
+
